@@ -1,0 +1,54 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+     background-color:midnightblue;
+     overflow-y: hidden;
+}
+h2{
+   
+    text-align: center;
+    margin-top: 10rem;
+    color: #fff;
+    text-decoration:dotted;
+    font-style: italic;
+   
+}
+   
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background: #fff;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 50px auto; 
+    gap: 1rem;
+    height: auto;
+}
+p{
+    margin: 15px;
+    font-weight: bold;
+    font-size: larger;
+}
+button{
+    padding: 15px 20px;
+    width: 80%;
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+input{
+    padding: 15px 20px;
+    width: 80%;
+    background: fixed;
+    border-radius: 8px;
+    border-color: grey;
+    box-shadow: 3px 3px 5px 5px rgb(165, 168, 168);
+}
